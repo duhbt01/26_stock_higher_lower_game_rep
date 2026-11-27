@@ -1,0 +1,8 @@
+# Install: pip install -r requirements.txt
+# Tested with these versions (2026-11-27). Older versions may lack features this app uses:
+#   streamlit: st.container(horizontal_alignment=...), width= options on elements
+#   yfinance:  yf.config.debug.hide_exceptions
+# Keep this file ASCII-only: pip on Korean Windows may read it as cp949 and fail on Korean text.
+streamlit>=1.66
+yfinance>=1.8
+pandas>=3.1
